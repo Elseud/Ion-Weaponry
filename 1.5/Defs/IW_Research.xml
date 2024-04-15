@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ResearchProjectDef>
+        <defName>IW_IonChargeWeaponry</defName>
+        <label>Ion Weaponry</label>
+        <description>todo</description>
+        <techLevel>Spacer</techLevel>
+        <baseCost>2000</baseCost>
+        <prerequisites>
+          <li>ChargedShot</li>
+        </prerequisites>
+		    <hiddenPrerequisites>
+		      <li>PrecisionRifling</li>
+		    </hiddenPrerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		    <requiredResearchFacilities>
+          <li>MultiAnalyzer</li>
+		    </requiredResearchFacilities>
+        <researchViewX>16.00</researchViewX>
+        <researchViewY>1.50</researchViewY>
+    </ResearchProjectDef>
+
+</Defs>

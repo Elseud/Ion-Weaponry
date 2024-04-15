@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  
+  <SoundDef>
+    <defName>IW_Shot_IonDMR</defName>  
+    <context>MapOnly</context>  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/IW_Shot_Heavy</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>25~25</volumeRange>
+        <pitchRange>0.95~1.1</pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>IW_Shot_IonSlugger</defName>  
+    <context>MapOnly</context>  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/IW_Shot_Heavy</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>30~30</volumeRange>      
+        <distRange>30~60</distRange>
+        <pitchRange>0.85~0.9</pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>IW_Shot_IonPistol</defName>  
+    <context>MapOnly</context>  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/IW_Shot_Light</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>30~30</volumeRange>
+        <pitchRange>0.85~0.9</pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>IW_Shot_IonPDW</defName>  
+    <context>MapOnly</context>  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/IW_Shot_Light</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>22~22</volumeRange>
+        <pitchRange>0.95~1.05</pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>IW_Shot_IonRifle</defName>  
+    <context>MapOnly</context>  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/IW_Shot_Medium</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>35~35</volumeRange>
+        <pitchRange>0.95~1.05</pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>IW_Shot_IonLMG</defName>  
+    <context>MapOnly</context>
+    <maxVoices>8</maxVoices>  
+    <maxSimultaneous>4</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/IW_Shot_Heavy</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>32~32</volumeRange>
+        <pitchRange>0.85~0.9</pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>IW_Interact_IonPistol</defName>  
+    <context>MapOnly</context>  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/IW_Interact_Light</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>18~18</volumeRange>      
+        <pitchRange>0.85~0.95</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>IW_Interact_IonPDW</defName>  
+    <context>MapOnly</context>  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/IW_Interact_Light</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>20~20</volumeRange>      
+        <pitchRange>0.9~1.05</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>IW_Interact_IonSlugger</defName>  
+    <context>MapOnly</context>  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/IW_Interact_Heavy</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>22~22</volumeRange>      
+        <pitchRange>0.85~1</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>IW_Interact_IonLMG</defName>  
+    <context>MapOnly</context>  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/IW_Interact_Heavy</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>28~28</volumeRange>      
+        <pitchRange>0.75~0.9</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>IW_Interact_IonRifle</defName>  
+    <context>MapOnly</context>  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/IW_Interact_Medium</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>24~24</volumeRange>      
+        <pitchRange>0.85~1</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>IW_Interact_IonDMR</defName>  
+    <context>MapOnly</context>  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/IW_Interact_Medium</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>26~26</volumeRange>      
+        <pitchRange>0.75~0.9</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+
+</Defs>
