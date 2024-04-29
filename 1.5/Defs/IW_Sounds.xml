@@ -112,6 +112,44 @@
   </SoundDef>
 
   <SoundDef>
+    <defName>IW_Shot_HeavyIonLance</defName>  
+    <context>MapOnly</context>  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/IW_Shot_Heavy</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>32~32</volumeRange>      
+        <distRange>30~60</distRange>
+        <pitchRange>0.75~0.8</pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>IW_Shot_IonBlast</defName>  
+    <context>MapOnly</context>  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/IW_Shot_Blast</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>26~26</volumeRange>      
+        <distRange>30~60</distRange>
+        <pitchRange>0.75~0.8</pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
     <defName>IW_Interact_IonPistol</defName>  
     <context>MapOnly</context>  
     <maxSimultaneous>1</maxSimultaneous>  
@@ -209,6 +247,23 @@
         </grains>      
         <volumeRange>26~26</volumeRange>      
         <pitchRange>0.75~0.9</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>IW_Interact_HeavyIonLance</defName>  
+    <context>MapOnly</context>  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/IW_Interact_Heavy</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>29~29</volumeRange>      
+        <pitchRange>0.65~0.8</pitchRange>
       </li>
     </subSounds>
   </SoundDef>

@@ -6,7 +6,7 @@
 	<hediffClass>HediffWithComps</hediffClass>
     <label>ionization</label>
     <labelNoun>ionized</labelNoun>
-    <description>todo</description>
+    <description>Measure of ionizing particles' buildup. Once it reaches critical level, the particles will release in an EMP pulse.</description>
     <isBad>false</isBad>
     <minSeverity>0.001</minSeverity>
     <maxSeverity>1</maxSeverity>
