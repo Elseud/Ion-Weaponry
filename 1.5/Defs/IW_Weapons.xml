@@ -595,6 +595,9 @@
 	    <drawSize>1.4</drawSize>
     </graphicData>
     <soundInteract>IW_Interact_HeavyIonLance</soundInteract>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.2</MoveSpeed>
+    </equippedStatOffsets>
     <statBases>
       <MarketValue>2000</MarketValue>
 	    <WorkToMake>68000</WorkToMake>
