@@ -586,7 +586,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>IW_Gun_HeavyIonLance</defName>
     <label>heavy ion lance</label>
-    <description>todo</description>
+    <description>A long-range siege weapon of spacer make, developed during mechanoid wars to disrupt mech cluster fortifications. Heavy and somewhat cumbersome, it can launch a large tungsten spike carrying ionizing particles, which when sufficiently built up release into an EMP pulse; or discharge its capacitor in a direct EMP blast.</description>
     <generateCommonality>0.15</generateCommonality>
     <techLevel>Spacer</techLevel>
     <graphicData>

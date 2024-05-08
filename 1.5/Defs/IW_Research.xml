@@ -4,7 +4,7 @@
     <ResearchProjectDef>
         <defName>IW_IonChargeWeaponry</defName>
         <label>Ion Weaponry</label>
-        <description>todo</description>
+        <description>Build ion weapons which specialise in countering mechanoids by causing an EMP explosion on damage.</description>
         <techLevel>Spacer</techLevel>
         <baseCost>2000</baseCost>
         <prerequisites>
